@@ -2,9 +2,10 @@
 
 <main class="page" id="main">
 
-<?php
+  <?php
 
   // Hero
+  echo ('test');
   get_template_part('blocks/hero', null, [
     'title' => '<h1>Hero Title</h1>',
     'image' => [
@@ -27,7 +28,7 @@
 
   // Logo Slider
   get_template_part('blocks/logo-slider', null, [
-  'logo-slider' => [
+    'logo-slider' => [
       [
         'url' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7P-cCaFwyYJmut32fDmmc6Btv8zWzc3nyMg&s',
         'title' => 'Codelibry Logo',
@@ -96,7 +97,7 @@
     'title' => '
       <h2>Contact Us</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     '
@@ -142,7 +143,7 @@
     ]
   ]);
 
-?>
+  ?>
 
 </main>
 
